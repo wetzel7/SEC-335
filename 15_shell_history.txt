@@ -1,0 +1,36 @@
+-rw-------  1 bthomas bthomas  386 Oct 26 18:24 .bash_history
+-rw-------  1 bthomas bthomas  386 Oct 26 18:24 .bash_history
+HISTFILE=
+ls
+pwd
+whoami
+ipconfig
+ip addr
+mkdir -p /tmp/enumeration
+which tar gzip zip 7z
+vim /tmp/enumeration/enumerate.sh
+bash /tmp/enumeration/enumerate.sh 
+cd /tmp/enumeration/
+ls
+cd /tmp
+mkdir -p /tmp/submit && cp /tmp/enumeration/*.txt /tmp/submit/
+tar -czvf enumeration.tar.gz -C /tmp submit
+scp bthomas@ws-21:/tmp/enumeration.tar.gz "C:\Users\Savage\Desktop\claude shit\week 9 eth hack\"
+
+ls
+pwd
+whoami
+ipconfig
+ip addr
+mkdir -p /tmp/enumeration
+which tar gzip zip 7z
+vim /tmp/enumeration/enumerate.sh
+bash /tmp/enumeration/enumerate.sh 
+cd /tmp/enumeration/
+ls
+cd /tmp
+mkdir -p /tmp/submit && cp /tmp/enumeration/*.txt /tmp/submit/
+tar -czvf enumeration.tar.gz -C /tmp submit
+scp bthomas@ws-21:/tmp/enumeration.tar.gz "C:\Users\Savage\Desktop\claude shit\week 9 eth hack\"
+
+(end of history search)

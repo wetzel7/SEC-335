@@ -1,0 +1,58 @@
+           system boot  2026-10-04 21:56
+LOGIN      console      2026-10-04 21:56               422 id=cons
+           run-level 5  2026-10-04 21:56
+bthomas  + pts/1        2026-10-26 18:43   .        266190 (184.171.155.135)
+ 18:47:25 up 21 days, 20:51,  1 user,  load average: 2.48, 2.29, 2.22
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+bthomas  pts/1    184.171.155.135  18:43    5.00s  0.06s  0.00s w
+bthomas  pts/1        Mon Oct 26 18:43   still logged in    184.171.155.135
+bthomas  pts/1        Mon Oct 26 17:43 - 18:24  (00:40)     184.171.155.135
+reboot   system boot  Sun Oct  4 21:56   still running      7.0.0-30-generic
+reboot   system boot  Sun Oct  4 21:55   still running      7.0.0-30-generic
+
+wtmp begins Sun Oct  4 21:55:59 2026
+Username         Port     From             Latest
+root                                       **Never logged in**
+daemon                                     **Never logged in**
+bin                                        **Never logged in**
+sys                                        **Never logged in**
+sync                                       **Never logged in**
+games                                      **Never logged in**
+man                                        **Never logged in**
+lp                                         **Never logged in**
+mail                                       **Never logged in**
+news                                       **Never logged in**
+uucp                                       **Never logged in**
+proxy                                      **Never logged in**
+www-data                                   **Never logged in**
+backup                                     **Never logged in**
+list                                       **Never logged in**
+irc                                        **Never logged in**
+gnats                                      **Never logged in**
+nobody                                     **Never logged in**
+systemd-network                            **Never logged in**
+systemd-resolve                            **Never logged in**
+messagebus                                 **Never logged in**
+systemd-timesync                           **Never logged in**
+syslog                                     **Never logged in**
+_apt                                       **Never logged in**
+tss                                        **Never logged in**
+uuidd                                      **Never logged in**
+tcpdump                                    **Never logged in**
+sshd                                       **Never logged in**
+pollinate                                  **Never logged in**
+landscape                                  **Never logged in**
+fwupd-refresh                              **Never logged in**
+ubuntu                                     **Never logged in**
+lxd                                        **Never logged in**
+postgres                                   **Never logged in**
+tcarpenter                                 **Never logged in**
+rnovelli                                   **Never logged in**
+nkatz                                      **Never logged in**
+bthomas          pts/1    184.171.155.135  Mon Oct 26 18:43:54 +0000 2026
+llyons                                     **Never logged in**
+bcarver                                    **Never logged in**
+zschultz                                   **Never logged in**
+pgreen                                     **Never logged in**
+ldekula                                    **Never logged in**
+ggeorge                                    **Never logged in**

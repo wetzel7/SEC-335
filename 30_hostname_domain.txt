@@ -1,0 +1,4 @@
+ws-21
+ws-21
+search lxd
+realm not installed (host not domain-joined via realmd/sssd)

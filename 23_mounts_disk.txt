@@ -1,0 +1,110 @@
+Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv  467G  233G  215G  53% /
+none                               492K  4.0K  488K   1% /dev
+tmpfs                              100K     0  100K   0% /dev/.lxd-mounts
+tmpfs                               31G   28K   31G   1% /dev/shm
+tmpfs                               13G  292K   13G   1% /run
+tmpfs                              5.0M     0  5.0M   0% /run/lock
+snapfuse                           116M  116M     0 100% /snap/lxd/40911
+snapfuse                            51M   51M     0 100% /snap/snapd/27738
+snapfuse                            74M   74M     0 100% /snap/core22/2955
+snapfuse                            45M   45M     0 100% /snap/snapd/28254
+tmpfs                              1.0M     0  1.0M   0% /dev/lxd
+tmpfs                              6.1G  4.0K  6.1G   1% /run/user/1004
+/dev/mapper/ubuntu--vg-ubuntu--lv on / type ext4 (rw,relatime,idmapped)
+none on /dev type tmpfs (rw,relatime,size=492k,mode=755,uid=1000000,gid=1000000,inode64)
+proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)
+sysfs on /sys type sysfs (rw,relatime)
+devtmpfs on /dev/fuse type devtmpfs (rw,nosuid,size=26771632k,nr_inodes=6692908,mode=755,inode64)
+devtmpfs on /dev/net/tun type devtmpfs (rw,nosuid,size=26771632k,nr_inodes=6692908,mode=755,inode64)
+fusectl on /sys/fs/fuse/connections type fusectl (rw,nosuid,nodev,noexec,relatime)
+none on /sys/fs/pstore type pstore (rw,nosuid,nodev,noexec,relatime)
+configfs on /sys/kernel/config type configfs (rw,nosuid,nodev,noexec,relatime)
+debugfs on /sys/kernel/debug type debugfs (rw,nosuid,nodev,noexec,relatime)
+securityfs on /sys/kernel/security type securityfs (rw,nosuid,nodev,noexec,relatime)
+tracefs on /sys/kernel/tracing type tracefs (rw,nosuid,nodev,noexec,relatime)
+devtmpfs on /dev/zfs type devtmpfs (rw,nosuid,size=26771632k,nr_inodes=6692908,mode=755,inode64)
+mqueue on /dev/mqueue type mqueue (rw,nosuid,nodev,noexec,relatime)
+tmpfs on /dev/.lxd-mounts type tmpfs (rw,relatime,size=100k,mode=711,inode64)
+none on /sys/fs/cgroup type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot,memory_hugetlb_accounting)
+lxcfs on /proc/cpuinfo type fuse.lxcfs (rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other)
+lxcfs on /proc/diskstats type fuse.lxcfs (rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other)
+lxcfs on /proc/loadavg type fuse.lxcfs (rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other)
+lxcfs on /proc/meminfo type fuse.lxcfs (rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other)
+lxcfs on /proc/slabinfo type fuse.lxcfs (rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other)
+lxcfs on /proc/stat type fuse.lxcfs (rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other)
+lxcfs on /proc/swaps type fuse.lxcfs (rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other)
+lxcfs on /proc/uptime type fuse.lxcfs (rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other)
+lxcfs on /sys/devices/system/cpu type fuse.lxcfs (rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other)
+lxcfs on /var/snap/lxd/common/var/lib/lxcfs type fuse.lxcfs (rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other)
+devtmpfs on /dev/full type devtmpfs (rw,nosuid,size=26771632k,nr_inodes=6692908,mode=755,inode64)
+devtmpfs on /dev/null type devtmpfs (rw,nosuid,size=26771632k,nr_inodes=6692908,mode=755,inode64)
+devtmpfs on /dev/random type devtmpfs (rw,nosuid,size=26771632k,nr_inodes=6692908,mode=755,inode64)
+devtmpfs on /dev/tty type devtmpfs (rw,nosuid,size=26771632k,nr_inodes=6692908,mode=755,inode64)
+devtmpfs on /dev/urandom type devtmpfs (rw,nosuid,size=26771632k,nr_inodes=6692908,mode=755,inode64)
+devtmpfs on /dev/zero type devtmpfs (rw,nosuid,size=26771632k,nr_inodes=6692908,mode=755,inode64)
+devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=1000005,mode=620,ptmxmode=666,max=1024)
+devpts on /dev/ptmx type devpts (rw,nosuid,noexec,relatime,gid=1000005,mode=620,ptmxmode=666,max=1024)
+devpts on /dev/console type devpts (rw,nosuid,noexec,relatime,gid=1000005,mode=620,ptmxmode=666,max=1024)
+none on /proc/sys/kernel/random/boot_id type tmpfs (ro,nosuid,nodev,noexec,relatime,size=492k,mode=755,uid=1000000,gid=1000000,inode64)
+tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev,uid=1000000,gid=1000000,inode64)
+tmpfs on /run type tmpfs (rw,nosuid,nodev,size=12675540k,nr_inodes=819200,mode=755,uid=1000000,gid=1000000,inode64)
+tmpfs on /run/lock type tmpfs (rw,nosuid,nodev,noexec,relatime,size=5120k,uid=1000000,gid=1000000,inode64)
+ramfs on /run/credentials/systemd-sysusers.service type ramfs (ro,nosuid,nodev,noexec,relatime,mode=700)
+snapfuse on /snap/lxd/40911 type fuse.snapfuse (ro,nodev,relatime,user_id=0,group_id=0,allow_other)
+snapfuse on /snap/snapd/27738 type fuse.snapfuse (ro,nodev,relatime,user_id=0,group_id=0,allow_other)
+snapfuse on /snap/core22/2955 type fuse.snapfuse (ro,nodev,relatime,user_id=0,group_id=0,allow_other)
+tmpfs on /run/snapd/ns type tmpfs (rw,nosuid,nodev,size=12675540k,nr_inodes=819200,mode=755,uid=1000000,gid=1000000,inode64)
+nsfs on /run/snapd/ns/lxd.mnt type nsfs (rw)
+snapfuse on /snap/snapd/28254 type fuse.snapfuse (ro,nodev,relatime,user_id=0,group_id=0,allow_other)
+tmpfs on /dev/lxd type tmpfs (rw,relatime,size=1024k,mode=711,inode64)
+tmpfs on /run/user/1004 type tmpfs (rw,nosuid,nodev,relatime,size=6337768k,nr_inodes=1584442,mode=700,uid=1001004,gid=1001004,inode64)
+TARGET                                        SOURCE                                                                                                    FSTYPE        OPTIONS
+/                                             /dev/mapper/ubuntu--vg-ubuntu--lv[/var/snap/lxd/common/lxd/storage-pools/default/containers/ws-21/rootfs] ext4          rw,relatime,idmapped
+├─/snap/lxd/40911                             snapfuse                                                                                                  fuse.snapfuse ro,nodev,relatime,user_id=0,group_id=0,allow_other
+├─/snap/snapd/27738                           snapfuse                                                                                                  fuse.snapfuse ro,nodev,relatime,user_id=0,group_id=0,allow_other
+├─/snap/core22/2955                           snapfuse                                                                                                  fuse.snapfuse ro,nodev,relatime,user_id=0,group_id=0,allow_other
+├─/run                                        tmpfs                                                                                                     tmpfs         rw,nosuid,nodev,size=12675540k,nr_inodes=819200,mode=755,uid=1000000,gid=1000000,inode64
+│ ├─/run/credentials/systemd-sysusers.service ramfs                                                                                                     ramfs         ro,nosuid,nodev,noexec,relatime,mode=700
+│ ├─/run/lock                                 tmpfs                                                                                                     tmpfs         rw,nosuid,nodev,noexec,relatime,size=5120k,uid=1000000,gid=1000000,inode64
+│ ├─/run/snapd/ns                             tmpfs[/snapd/ns]                                                                                          tmpfs         rw,nosuid,nodev,size=12675540k,nr_inodes=819200,mode=755,uid=1000000,gid=1000000,inode64
+│ │ └─/run/snapd/ns/lxd.mnt                   nsfs[mnt:[4026534785]]                                                                                    nsfs          rw
+│ └─/run/user/1004                            tmpfs                                                                                                     tmpfs         rw,nosuid,nodev,relatime,size=6337768k,nr_inodes=1584442,mode=700,uid=1001004,gid=1001004,inode64
+├─/dev                                        none                                                                                                      tmpfs         rw,relatime,size=492k,mode=755,uid=1000000,gid=1000000,inode64
+│ ├─/dev/lxd                                  tmpfs[/devlxd]                                                                                            tmpfs         rw,relatime,size=1024k,mode=711,inode64
+│ ├─/dev/shm                                  tmpfs                                                                                                     tmpfs         rw,nosuid,nodev,uid=1000000,gid=1000000,inode64
+│ ├─/dev/fuse                                 devtmpfs[/fuse]                                                                                           devtmpfs      rw,nosuid,size=26771632k,nr_inodes=6692908,mode=755,inode64
+│ ├─/dev/net/tun                              devtmpfs[/net/tun]                                                                                        devtmpfs      rw,nosuid,size=26771632k,nr_inodes=6692908,mode=755,inode64
+│ ├─/dev/zfs                                  devtmpfs[/zfs]                                                                                            devtmpfs      rw,nosuid,size=26771632k,nr_inodes=6692908,mode=755,inode64
+│ ├─/dev/mqueue                               mqueue                                                                                                    mqueue        rw,nosuid,nodev,noexec,relatime
+│ ├─/dev/.lxd-mounts                          tmpfs[/ws-21]                                                                                             tmpfs         rw,relatime,size=100k,mode=711,inode64
+│ ├─/dev/full                                 devtmpfs[/full]                                                                                           devtmpfs      rw,nosuid,size=26771632k,nr_inodes=6692908,mode=755,inode64
+│ ├─/dev/null                                 devtmpfs[/null]                                                                                           devtmpfs      rw,nosuid,size=26771632k,nr_inodes=6692908,mode=755,inode64
+│ ├─/dev/random                               devtmpfs[/random]                                                                                         devtmpfs      rw,nosuid,size=26771632k,nr_inodes=6692908,mode=755,inode64
+│ ├─/dev/tty                                  devtmpfs[/tty]                                                                                            devtmpfs      rw,nosuid,size=26771632k,nr_inodes=6692908,mode=755,inode64
+│ ├─/dev/urandom                              devtmpfs[/urandom]                                                                                        devtmpfs      rw,nosuid,size=26771632k,nr_inodes=6692908,mode=755,inode64
+│ ├─/dev/zero                                 devtmpfs[/zero]                                                                                           devtmpfs      rw,nosuid,size=26771632k,nr_inodes=6692908,mode=755,inode64
+│ ├─/dev/pts                                  devpts                                                                                                    devpts        rw,nosuid,noexec,relatime,gid=1000005,mode=620,ptmxmode=666,max=1024
+│ ├─/dev/ptmx                                 devpts[/ptmx]                                                                                             devpts        rw,nosuid,noexec,relatime,gid=1000005,mode=620,ptmxmode=666,max=1024
+│ └─/dev/console                              devpts[/0]                                                                                                devpts        rw,nosuid,noexec,relatime,gid=1000005,mode=620,ptmxmode=666,max=1024
+├─/proc                                       proc                                                                                                      proc          rw,nosuid,nodev,noexec,relatime
+│ ├─/proc/cpuinfo                             lxcfs[/proc/cpuinfo]                                                                                      fuse.lxcfs    rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other
+│ ├─/proc/diskstats                           lxcfs[/proc/diskstats]                                                                                    fuse.lxcfs    rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other
+│ ├─/proc/loadavg                             lxcfs[/proc/loadavg]                                                                                      fuse.lxcfs    rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other
+│ ├─/proc/meminfo                             lxcfs[/proc/meminfo]                                                                                      fuse.lxcfs    rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other
+│ ├─/proc/slabinfo                            lxcfs[/proc/slabinfo]                                                                                     fuse.lxcfs    rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other
+│ ├─/proc/stat                                lxcfs[/proc/stat]                                                                                         fuse.lxcfs    rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other
+│ ├─/proc/swaps                               lxcfs[/proc/swaps]                                                                                        fuse.lxcfs    rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other
+│ ├─/proc/uptime                              lxcfs[/proc/uptime]                                                                                       fuse.lxcfs    rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other
+│ └─/proc/sys/kernel/random/boot_id           none[/.lxc-boot-id]                                                                                       tmpfs         ro,nosuid,nodev,noexec,relatime,size=492k,mode=755,uid=1000000,gid=1000000,inode64
+├─/sys                                        sysfs                                                                                                     sysfs         rw,relatime
+│ ├─/sys/fs/fuse/connections                  fusectl                                                                                                   fusectl       rw,nosuid,nodev,noexec,relatime
+│ ├─/sys/fs/pstore                            none                                                                                                      pstore        rw,nosuid,nodev,noexec,relatime
+│ ├─/sys/kernel/config                        configfs                                                                                                  configfs      rw,nosuid,nodev,noexec,relatime
+│ ├─/sys/kernel/debug                         debugfs                                                                                                   debugfs       rw,nosuid,nodev,noexec,relatime
+│ ├─/sys/kernel/security                      securityfs                                                                                                securityfs    rw,nosuid,nodev,noexec,relatime
+│ ├─/sys/kernel/tracing                       tracefs                                                                                                   tracefs       rw,nosuid,nodev,noexec,relatime
+│ ├─/sys/fs/cgroup                            none                                                                                                      cgroup2       rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot,memory_hugetlb_accounting
+│ └─/sys/devices/system/cpu                   lxcfs[/sys/devices/system/cpu]                                                                            fuse.lxcfs    rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other
+├─/var/snap/lxd/common/var/lib/lxcfs          lxcfs                                                                                                     fuse.lxcfs    rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other
+└─/snap/snapd/28254                           snapfuse                                                                                                  fuse.snapfuse ro,nodev,relatime,user_id=0,group_id=0,allow_other

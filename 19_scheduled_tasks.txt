@@ -1,0 +1,87 @@
+no crontab for bthomas
+# /etc/crontab: system-wide crontab
+# Unlike any other crontab you don't have to run the `crontab'
+# command to install the new version when you edit this file
+# and files in /etc/cron.d. These files also have username fields,
+# that none of the other crontabs do.
+
+SHELL=/bin/sh
+# You can also override PATH, but by default, newer versions inherit it from the environment
+#PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+# Example of job definition:
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  * user-name command to be executed
+17 *	* * *	root    cd / && run-parts --report /etc/cron.hourly
+25 6	* * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
+47 6	* * 7	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
+52 6	1 * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
+#
+-rw-r--r-- 1 root root 1136 Mar 23  2022 /etc/crontab
+
+/etc/cron.d:
+total 36
+drwxr-xr-x  2 root root 4096 Oct  5 11:57 .
+drwxr-xr-x 95 root root 4096 Oct 26 02:19 ..
+-rw-r--r--  1 root root  102 Mar 23  2022 .placeholder
+-rw-r--r--  1 root root  201 Jan  8  2022 e2scrub_all
+-rw-r--r--  1 root root   36 Oct  5 12:04 lab-agent
+-rw-r--r--  1 root root   40 Oct  5 12:04 lab-backup
+-rw-r--r--  1 root root   44 Oct  5 12:04 lab-rotate
+-rw-r--r--  1 root root  712 Jan 28  2022 php
+-rw-r--r--  1 root root  396 Feb  2  2021 sysstat
+
+/etc/cron.daily:
+total 40
+drwxr-xr-x  2 root root 4096 Oct 16 06:13 .
+drwxr-xr-x 95 root root 4096 Oct 26 02:19 ..
+-rw-r--r--  1 root root  102 Mar 23  2022 .placeholder
+-rwxr-xr-x  1 root root  539 Mar 18  2024 apache2
+-rwxr-xr-x  1 root root  376 Jul 24  2023 apport
+-rwxr-xr-x  1 root root 1478 Apr  8  2022 apt-compat
+-rwxr-xr-x  1 root root  123 Dec  5  2021 dpkg
+-rwxr-xr-x  1 root root  377 Jan 24  2022 logrotate
+-rwxr-xr-x  1 root root 1330 Mar 17  2022 man-db
+-rwxr-xr-x  1 root root  518 Feb  2  2021 sysstat
+
+/etc/cron.hourly:
+total 12
+drwxr-xr-x  2 root root 4096 Sep 26 10:49 .
+drwxr-xr-x 95 root root 4096 Oct 26 02:19 ..
+-rw-r--r--  1 root root  102 Mar 23  2022 .placeholder
+
+/etc/cron.monthly:
+total 12
+drwxr-xr-x  2 root root 4096 Sep 26 10:49 .
+drwxr-xr-x 95 root root 4096 Oct 26 02:19 ..
+-rw-r--r--  1 root root  102 Mar 23  2022 .placeholder
+
+/etc/cron.weekly:
+total 16
+drwxr-xr-x  2 root root 4096 Sep 26 10:51 .
+drwxr-xr-x 95 root root 4096 Oct 26 02:19 ..
+-rw-r--r--  1 root root  102 Mar 23  2022 .placeholder
+-rwxr-xr-x  1 root root 1020 Mar 17  2022 man-db
+NEXT                        LEFT          LAST                        PASSED        UNIT                           ACTIVATES
+Mon 2026-10-26 19:09:00 UTC 21min left    Mon 2026-10-26 18:39:03 UTC 8min ago      phpsessionclean.timer          phpsessionclean.service
+Mon 2026-10-26 22:08:51 UTC 3h 21min left Sun 2026-10-25 22:08:51 UTC 20h ago       update-notifier-download.timer update-notifier-download.service
+Mon 2026-10-26 22:18:26 UTC 3h 30min left Sun 2026-10-25 22:18:26 UTC 20h ago       systemd-tmpfiles-clean.timer   systemd-tmpfiles-clean.service
+Mon 2026-10-26 23:17:40 UTC 4h 30min left Tue 2026-10-20 03:43:41 UTC 6 days ago    update-notifier-motd.timer     update-notifier-motd.service
+Mon 2026-10-26 23:49:43 UTC 5h 2min left  Mon 2026-10-26 02:26:13 UTC 16h ago       motd-news.timer                motd-news.service
+Tue 2026-10-27 00:00:00 UTC 5h 12min left Mon 2026-10-26 00:00:10 UTC 18h ago       dpkg-db-backup.timer           dpkg-db-backup.service
+Tue 2026-10-27 00:00:00 UTC 5h 12min left Mon 2026-10-26 00:00:10 UTC 18h ago       logrotate.timer                logrotate.service
+Tue 2026-10-27 03:44:19 UTC 8h left       Mon 2026-10-26 09:24:51 UTC 9h ago        apt-daily.timer                apt-daily.service
+Tue 2026-10-27 06:55:06 UTC 12h left      Mon 2026-10-26 06:30:59 UTC 12h ago       apt-daily-upgrade.timer        apt-daily-upgrade.service
+Tue 2026-10-27 11:55:51 UTC 17h left      Mon 2026-10-26 06:04:51 UTC 12h ago       man-db.timer                   man-db.service
+Sun 2026-11-01 03:10:56 UTC 5 days left   Sun 2026-10-25 03:10:10 UTC 1 day 15h ago e2scrub_all.timer              e2scrub_all.service
+n/a                         n/a           n/a                         n/a           apport-autoreport.timer        apport-autoreport.service
+n/a                         n/a           n/a                         n/a           fstrim.timer                   fstrim.service
+n/a                         n/a           n/a                         n/a           snapd.snap-repair.timer        snapd.snap-repair.service
+n/a                         n/a           n/a                         n/a           ua-timer.timer                 ua-timer.service
+
+15 timers listed.

@@ -1,0 +1,7 @@
+Matching Defaults entries for bthomas on ws-21:
+    env_reset, mail_badpass,
+    secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin,
+    use_pty
+
+User bthomas may run the following commands on ws-21:
+    (ALL) NOPASSWD: /usr/bin/find /opt/lab/tools/*

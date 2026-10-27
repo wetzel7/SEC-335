@@ -1,0 +1,22 @@
+Linux ws-21 7.0.0-30-generic #30-Ubuntu SMP PREEMPT_DYNAMIC Fri Jul 31 18:22:54 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.5 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+ Static hostname: ws-21
+       Icon name: computer-container
+         Chassis: container
+      Machine ID: 9523e9b9c02145e7a1d3f00b7e680748
+         Boot ID: 01f2281e6b65419c9ce3985ae2710ff2
+  Virtualization: lxc
+Operating System: Ubuntu 22.04.5 LTS
+          Kernel: Linux 7.0.0-30-generic
+    Architecture: x86-64

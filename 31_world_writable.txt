@@ -1,0 +1,7 @@
+/etc/update-motd.d
+/opt/lab/bin
+/opt/lab/bin/backup.sh
+/opt/lab/scripts/rotate.sh
+/var/crash
+/var/tmp
+/var/lib/php/sessions

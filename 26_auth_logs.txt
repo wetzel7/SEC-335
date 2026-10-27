@@ -1,0 +1,8 @@
+Oct 26 17:43:16 ws-21 sshd[265427]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=184.171.155.135  user=bthomas
+Oct 26 17:43:18 ws-21 sshd[265427]: Failed password for bthomas from 184.171.155.135 port 46458 ssh2
+Oct 26 17:55:53 ws-21 sudo:  bthomas : command not allowed ; TTY=pts/1 ; PWD=/home/bthomas ; USER=root ; COMMAND=/usr/bin/grep -iE 'failed|invalid user|authentication failure' /var/log/auth.log
+Oct 26 18:47:38 ws-21 sudo:  bthomas : command not allowed ; TTY=pts/1 ; PWD=/home/bthomas ; USER=root ; COMMAND=/usr/bin/grep -iE 'failed|invalid user|authentication failure' /var/log/auth.log
+Oct 26 18:48:34 ws-21 sudo: tcarpenter : TTY=pts/1 ; PWD=/home/bthomas ; USER=root ; COMMAND=/usr/bin/grep -iE 'failed|invalid user|authentication failure' /var/log/auth.log
+bthomas  ssh:notty    184.171.155.135  Mon Oct 26 17:43 - 17:43  (00:00)
+
+btmp begins Mon Oct 26 17:43:18 2026

@@ -1,0 +1,2 @@
+smbstatus not installed - substitute: ss on port 445
+no connections on port 445

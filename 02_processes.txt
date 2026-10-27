@@ -1,0 +1,43 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0 167504 11680 ?        Ss   Oct04   0:50 /lib/systemd/systemd --system --deserialize 28
+root         105  0.0  0.0 302660  1200 ?        Ssl  Oct04   0:00 snapfuse /var/lib/snapd/snaps/lxd_40911.snap /snap/lxd/40911 -o ro,nodev,allow_other,suid
+root         109  0.0  0.0 302660  4744 ?        Ssl  Oct04   0:00 snapfuse /var/lib/snapd/snaps/snapd_27738.snap /snap/snapd/27738 -o ro,nodev,allow_other,suid
+root         113  0.0  0.0 452188  6212 ?        Ssl  Oct04   0:01 snapfuse /var/lib/snapd/snaps/core22_2955.snap /snap/core22/2955 -o ro,nodev,allow_other,suid
+root         388  0.0  0.0   7296  1560 ?        Ss   Oct04   0:12 /usr/sbin/cron -f -P
+message+     391  0.0  0.0   8924  3252 ?        Ss   Oct04   0:05 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         395  0.0  0.0  33100 13388 ?        Ss   Oct04   0:01 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+syslog       396  0.0  0.0 152784  3784 ?        Ssl  Oct04   0:07 /usr/sbin/rsyslogd -n -iNONE
+root         408  0.0  0.0  15408  4380 ?        Ss   Oct04   0:05 /lib/systemd/systemd-logind
+root         422  0.0  0.0   6228   228 pts/0    Ss+  Oct04   0:00 /sbin/agetty -o -p -- \u --noclear --keep-baud console 115200,38400,9600 linux
+root         431  0.0  0.0 235596  5352 ?        Ssl  Oct04   0:00 /usr/libexec/polkitd --no-debug
+root         432  0.0  0.0 110180  4956 ?        Ssl  Oct04   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1555  0.0  0.0 296036  6908 ?        Ssl  Oct04   0:16 /usr/libexec/packagekitd
+postgres   12299  0.0  0.0 218832  9624 ?        Ss   Oct04   1:32 /usr/lib/postgresql/14/bin/postgres -D /var/lib/postgresql/14/main -c config_file=/etc/postgresql/14/main/postgresql.conf
+postgres   12301  0.0  0.0 218944  4716 ?        Ss   Oct04   0:00 postgres: 14/main: checkpointer 
+postgres   12302  0.0  0.0 218832  3960 ?        Ss   Oct04   0:22 postgres: 14/main: background writer 
+postgres   12303  0.0  0.0 218832  4356 ?        Ss   Oct04   0:23 postgres: 14/main: walwriter 
+postgres   12304  0.0  0.0 219400  5472 ?        Ss   Oct04   0:41 postgres: 14/main: autovacuum launcher 
+postgres   12305  0.0  0.0  73560  2672 ?        Ss   Oct04   0:54 postgres: 14/main: stats collector 
+postgres   12306  0.0  0.0 219260  4564 ?        Ss   Oct04   0:01 postgres: 14/main: logical replication launcher 
+root       16075  0.0  0.0 971276 19084 ?        Ssl  Oct05   0:12 snapfuse /var/lib/snapd/snaps/snapd_28254.snap /snap/snapd/28254 -o ro,nodev,allow_other,suid
+root       47260  0.0  0.0 2224952 29300 ?       Ssl  Oct08   2:29 /snap/snapd/current/usr/lib/snapd/snapd
+systemd+  123403  0.0  0.0  16276  6812 ?        Ss   Oct16   0:03 /lib/systemd/systemd-networkd
+systemd+  123409  0.0  0.0  25700 11512 ?        Ss   Oct16   0:05 /lib/systemd/systemd-resolved
+root      123411  0.0  0.0  88756 36520 ?        Ss   Oct16   0:17 /lib/systemd/systemd-journald
+root      123920  0.0  0.0  15452  7696 ?        Ss   Oct16   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+www-data  124351  0.0  0.0   3752  1456 ?        Ss   Oct16   0:50 /usr/bin/htcacheclean -d 120 -p /var/cache/apache2/mod_cache_disk -l 300M -n
+root      124783  0.0  0.0  21976  5288 ?        Ss   Oct16   0:02 /lib/systemd/systemd-udevd
+root      231052  0.0  0.0 219480 28436 ?        Ss   Oct23   0:22 /usr/sbin/apache2 -k start
+www-data  256828  0.0  0.0 220016 13508 ?        S    00:00   0:00 /usr/sbin/apache2 -k start
+www-data  256829  0.0  0.0 220016 13508 ?        S    00:00   0:00 /usr/sbin/apache2 -k start
+www-data  256830  0.0  0.0 220016 13508 ?        S    00:00   0:00 /usr/sbin/apache2 -k start
+www-data  256831  0.0  0.0 220016 13508 ?        S    00:00   0:00 /usr/sbin/apache2 -k start
+www-data  256832  0.0  0.0 220016 13508 ?        S    00:00   0:00 /usr/sbin/apache2 -k start
+root      258266  0.0  0.0  64904 33672 ?        Ssl  02:40   2:59 /opt/easytier/easytier-core -i 192.168.77.50 --network-name ws-21 --network-secret c860e183e91c8ff40328ad6151dd8d40 -p tcp://108.181.196.156:20210
+root      266190  0.0  0.0  17200 10984 ?        Ss   18:43   0:00 sshd: bthomas [priv]
+bthomas   266193  0.0  0.0  16992  9628 ?        Ss   18:43   0:00 /lib/systemd/systemd --user
+bthomas   266194  0.0  0.0 170284  6536 ?        S    18:43   0:00 (sd-pam)
+bthomas   266259  0.0  0.0  17332  8172 ?        S    18:43   0:01 sshd: bthomas@pts/1
+bthomas   266260  0.0  0.0   9292  5528 pts/1    Ss   18:43   0:00 -bash
+bthomas   266315  0.0  0.0   7904  3796 pts/1    S+   18:47   0:00 bash /tmp/enumeration/enumerate.sh
+bthomas   266320  0.0  0.0  10480  3388 pts/1    R+   18:47   0:00 ps aux

@@ -1,0 +1,2 @@
+-rw-r----- 1 root shadow 1958 Oct  5 10:45 /etc/shadow
+not readable
